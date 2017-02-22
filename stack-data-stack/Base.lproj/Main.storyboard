@@ -28,39 +28,54 @@
                                     <constraint firstAttribute="height" constant="50" id="u01-2e-JCR"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fxS-Cm-jts">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fxS-Cm-jts">
                                 <rect key="frame" x="20" y="70" width="560" height="510"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="boJ-av-AHh">
-                                        <rect key="frame" x="0.0" y="0.0" width="560" height="316.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="326.5"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="chucks" translatesAutoresizingMaskIntoConstraints="NO" id="Kxy-oV-RgD">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="316.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="326.5"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="lwu-A2-8FY">
-                                        <rect key="frame" x="0.0" y="321.5" width="560" height="100"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="lwu-A2-8FY">
+                                        <rect key="frame" x="0.0" y="336.5" width="560" height="70"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes1" translatesAutoresizingMaskIntoConstraints="NO" id="LAW-v3-6V5">
-                                                <rect key="frame" x="0.0" y="0.0" width="92" height="100"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="260" ambiguous="YES" image="shoes1" translatesAutoresizingMaskIntoConstraints="NO" id="LAW-v3-6V5">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="bKd-Xv-A5f"/>
+                                                </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes2" translatesAutoresizingMaskIntoConstraints="NO" id="Tgh-wj-1Rb">
-                                                <rect key="frame" x="117" y="0.0" width="92" height="100"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="260" ambiguous="YES" image="shoes2" translatesAutoresizingMaskIntoConstraints="NO" id="Tgh-wj-1Rb">
+                                                <rect key="frame" x="115" y="0.0" width="100" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="oW9-Uh-jph"/>
+                                                </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes3" translatesAutoresizingMaskIntoConstraints="NO" id="f1h-0F-ctG">
-                                                <rect key="frame" x="234" y="0.0" width="92" height="100"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="260" ambiguous="YES" image="shoes3" translatesAutoresizingMaskIntoConstraints="NO" id="f1h-0F-ctG">
+                                                <rect key="frame" x="230" y="0.0" width="100" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="fQ6-54-IrK"/>
+                                                </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes4" translatesAutoresizingMaskIntoConstraints="NO" id="qF3-KH-rGJ">
-                                                <rect key="frame" x="351" y="0.0" width="92" height="100"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="260" ambiguous="YES" image="shoes4" translatesAutoresizingMaskIntoConstraints="NO" id="qF3-KH-rGJ">
+                                                <rect key="frame" x="345" y="0.0" width="100" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="gQF-vS-MTR"/>
+                                                </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes5" translatesAutoresizingMaskIntoConstraints="NO" id="n0P-G7-nW7">
-                                                <rect key="frame" x="468" y="0.0" width="92" height="100"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="260" ambiguous="YES" image="shoes5" translatesAutoresizingMaskIntoConstraints="NO" id="n0P-G7-nW7">
+                                                <rect key="frame" x="460" y="0.0" width="100" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="UWb-f7-Kd7"/>
+                                                </constraints>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aMV-aL-eFN">
-                                        <rect key="frame" x="0.0" y="426.5" width="560" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="416.5" width="560" height="20.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Chuck Taylor Shoes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOt-md-ynY">
                                                 <rect key="frame" x="0.0" y="0.0" width="560" height="20.5"/>
@@ -71,7 +86,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EPF-42-trl">
-                                        <rect key="frame" x="0.0" y="452" width="560" height="20"/>
+                                        <rect key="frame" x="0.0" y="447" width="560" height="20"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Ref. 772110 / USA Special Edition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUa-Dh-AG6">
                                                 <rect key="frame" x="0.0" y="0.0" width="508" height="20"/>
