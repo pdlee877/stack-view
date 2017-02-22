@@ -108,6 +108,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIl-ov-5kz">
                                                 <rect key="frame" x="0.0" y="0.0" width="275" height="33"/>
                                                 <color key="backgroundColor" red="0.78431372549019607" green="0.0" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="33" id="nWb-X9-gVu"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <state key="normal" title="Like"/>
                                             </button>
@@ -118,6 +121,7 @@
                                                 <state key="normal" title="Buy"/>
                                             </button>
                                         </subviews>
+                                        <variation key="heightClass=regular-widthClass=compact" axis="vertical"/>
                                     </stackView>
                                 </subviews>
                             </stackView>
