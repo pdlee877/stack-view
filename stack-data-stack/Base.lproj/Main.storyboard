@@ -28,42 +28,42 @@
                                     <constraint firstAttribute="height" constant="50" id="u01-2e-JCR"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="fxS-Cm-jts">
-                                <rect key="frame" x="0.0" y="50" width="600" height="550"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fxS-Cm-jts">
+                                <rect key="frame" x="20" y="70" width="560" height="510"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="boJ-av-AHh">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="376.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="316.5"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="chucks" translatesAutoresizingMaskIntoConstraints="NO" id="Kxy-oV-RgD">
-                                                <rect key="frame" x="0.0" y="0.0" width="600" height="376.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="316.5"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="lwu-A2-8FY">
-                                        <rect key="frame" x="0.0" y="376.5" width="600" height="100"/>
+                                        <rect key="frame" x="0.0" y="321.5" width="560" height="100"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes1" translatesAutoresizingMaskIntoConstraints="NO" id="LAW-v3-6V5">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes1" translatesAutoresizingMaskIntoConstraints="NO" id="LAW-v3-6V5">
+                                                <rect key="frame" x="0.0" y="0.0" width="92" height="100"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes2" translatesAutoresizingMaskIntoConstraints="NO" id="Tgh-wj-1Rb">
-                                                <rect key="frame" x="125" y="0.0" width="100" height="100"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes2" translatesAutoresizingMaskIntoConstraints="NO" id="Tgh-wj-1Rb">
+                                                <rect key="frame" x="117" y="0.0" width="92" height="100"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes3" translatesAutoresizingMaskIntoConstraints="NO" id="f1h-0F-ctG">
-                                                <rect key="frame" x="250" y="0.0" width="100" height="100"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes3" translatesAutoresizingMaskIntoConstraints="NO" id="f1h-0F-ctG">
+                                                <rect key="frame" x="234" y="0.0" width="92" height="100"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes4" translatesAutoresizingMaskIntoConstraints="NO" id="qF3-KH-rGJ">
-                                                <rect key="frame" x="375" y="0.0" width="100" height="100"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes4" translatesAutoresizingMaskIntoConstraints="NO" id="qF3-KH-rGJ">
+                                                <rect key="frame" x="351" y="0.0" width="92" height="100"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes5" translatesAutoresizingMaskIntoConstraints="NO" id="n0P-G7-nW7">
-                                                <rect key="frame" x="500" y="0.0" width="100" height="100"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes5" translatesAutoresizingMaskIntoConstraints="NO" id="n0P-G7-nW7">
+                                                <rect key="frame" x="468" y="0.0" width="92" height="100"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aMV-aL-eFN">
-                                        <rect key="frame" x="0.0" y="476.5" width="161" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="426.5" width="560" height="20.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Chuck Taylor Shoes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOt-md-ynY">
-                                                <rect key="frame" x="0.0" y="0.0" width="161" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" red="0.78431372549019607" green="0.0" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -71,16 +71,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EPF-42-trl">
-                                        <rect key="frame" x="0.0" y="497" width="311.5" height="20"/>
+                                        <rect key="frame" x="0.0" y="452" width="560" height="20"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ref. 772110 / USA Special Edition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUa-Dh-AG6">
-                                                <rect key="frame" x="0.0" y="0.0" width="259.5" height="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Ref. 772110 / USA Special Edition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUa-Dh-AG6">
+                                                <rect key="frame" x="0.0" y="0.0" width="508" height="20"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$78.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dG2-pq-QvJ">
-                                                <rect key="frame" x="259.5" y="0.0" width="52" height="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="$78.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dG2-pq-QvJ">
+                                                <rect key="frame" x="508" y="0.0" width="52" height="20"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" red="0.17558051815277784" green="0.79977756076388884" blue="0.5784017046083334" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -88,16 +88,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vJE-RL-Lgz">
-                                        <rect key="frame" x="0.0" y="517" width="65" height="33"/>
+                                        <rect key="frame" x="0.0" y="477" width="560" height="33"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIl-ov-5kz">
-                                                <rect key="frame" x="0.0" y="0.0" width="34" height="33"/>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIl-ov-5kz">
+                                                <rect key="frame" x="0.0" y="0.0" width="529" height="33"/>
                                                 <color key="backgroundColor" red="0.78431372549019607" green="0.0" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <state key="normal" title="Like"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Kz-Kg-bTl">
-                                                <rect key="frame" x="34" y="0.0" width="31" height="33"/>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Kz-Kg-bTl">
+                                                <rect key="frame" x="529" y="0.0" width="31" height="33"/>
                                                 <color key="backgroundColor" red="0.17558051820000001" green="0.79977756079999995" blue="0.57840170459999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <state key="normal" title="Buy"/>
@@ -109,13 +109,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="fxS-Cm-jts" secondAttribute="trailing" id="FOm-DV-UEU"/>
+                            <constraint firstAttribute="trailing" secondItem="fxS-Cm-jts" secondAttribute="trailing" constant="20" id="FOm-DV-UEU"/>
                             <constraint firstAttribute="trailing" secondItem="512-dQ-BBL" secondAttribute="trailing" id="Ife-k2-GNc"/>
                             <constraint firstItem="512-dQ-BBL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="K4z-0v-fxP"/>
                             <constraint firstItem="512-dQ-BBL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Lch-4p-zId"/>
-                            <constraint firstAttribute="bottom" secondItem="fxS-Cm-jts" secondAttribute="bottom" id="W5W-eR-HR2"/>
-                            <constraint firstItem="fxS-Cm-jts" firstAttribute="top" secondItem="512-dQ-BBL" secondAttribute="bottom" id="lmw-gC-C0u"/>
-                            <constraint firstItem="fxS-Cm-jts" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uQ5-z5-Po3"/>
+                            <constraint firstAttribute="bottom" secondItem="fxS-Cm-jts" secondAttribute="bottom" constant="20" id="W5W-eR-HR2"/>
+                            <constraint firstItem="fxS-Cm-jts" firstAttribute="top" secondItem="512-dQ-BBL" secondAttribute="bottom" constant="20" id="lmw-gC-C0u"/>
+                            <constraint firstItem="fxS-Cm-jts" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="uQ5-z5-Po3"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
